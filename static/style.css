@@ -1,0 +1,95 @@
+:root {
+    --card-bg: #ffffff;
+    --body-bg: #f5f7fa;
+    --text-color: #333;
+}
+
+body.light-theme {
+    --card-bg: #ffffff;
+    --body-bg: #f5f7fa;
+    --text-color: #333;
+}
+
+body.dark-theme {
+    --card-bg: #1e1e1e;
+    --body-bg: #121212;
+    --text-color: #f0f0f0;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    font-family: 'Roboto','Segoe UI',sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg,#0d6efd,#6610f2);
+    border-radius: 0 0 50% 50% / 20%;
+    color: white;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+input.form-control {
+    border-radius: 12px;
+    padding: 14px 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+input.form-control:focus {
+    border-color: #6610f2;
+    box-shadow: 0 0 10px rgba(102,16,242,0.2);
+}
+
+button.btn {
+    border-radius: 15px;
+    padding: 14px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+button.btn:hover {
+    transform: scale(1.1);
+    background: #6610f2;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.alert-success {
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+label.form-label {
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+footer {
+    background: #0d6efd;
+    color: white;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .card { padding: 25px; margin: 0 10px; }
+    input.form-control { padding: 12px 15px; }
+    button.btn { width: 100%; padding: 14px; }
+}
