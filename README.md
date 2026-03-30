@@ -149,7 +149,7 @@ joblib==1.3.2
 ## Author
 
 Hassan Ali  
-Aspiring Data Scientist and Machine Learning Engineer  
+ Data Scientist and Machine Learning Engineer  
 
 GitHub: https://github.com/Hassan-Ali786  
 
