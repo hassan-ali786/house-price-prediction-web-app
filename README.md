@@ -70,7 +70,7 @@ house-price-prediction/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/house-price-prediction.git
+git clone https://github.com/hassan-ali786/house-price-prediction.git
 cd house-price-prediction
 ```
 
@@ -151,7 +151,7 @@ joblib==1.3.2
 Hassan Ali  
  Data Scientist and Machine Learning Engineer  
 
-GitHub: https://github.com/Hassan-Ali786  
+GitHub: https://github.com/hassan-ali786  
 
 ---
 
