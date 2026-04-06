@@ -57,6 +57,8 @@ house-price-prediction/
 │   └── index.html
 ├── static/
 │   └── css/style.css
+├── assets/
+│   └── homepage.png
 ├── train_model.py
 ├── app.py
 ├── requirements.txt
