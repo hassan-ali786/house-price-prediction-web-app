@@ -52,14 +52,15 @@ house-price-prediction/
 ├── data/
 │   └── house_data.csv
 ├── model/
-│   └── house_price_model.pkl
+│   └── train_model.py
 ├── templates/
 │   └── index.html
 ├── static/
-│   └── css/style.css
+│   └── style.css
 ├── assets/
 │   └── homepage.png
-├── train_model.py
+├── house_price_model.pkl
+├── scaler.pkl
 ├── app.py
 ├── requirements.txt
 └── README.md
