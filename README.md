@@ -48,7 +48,7 @@ The model predicts house prices based on these features.
 ## Project Structure
 
 ```bash
-house-price-prediction/
+house-price-prediction-web-app/
 ├── data/
 │   └── house_data.csv
 ├── model/
@@ -73,8 +73,9 @@ house-price-prediction/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hassan-ali786/house-price-prediction.git
-cd house-price-prediction
+git clone https://github.com/hassan-ali786/house-price-prediction-web-app.git
+cd house-price-prediction-web-app
+
 ```
 
 2. Install dependencies:
