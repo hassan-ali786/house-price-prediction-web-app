@@ -5,6 +5,15 @@ The system provides real-time predictions through a professional web interface.
 
 ---
 
+## Video Demo:
+
+
+https://github.com/user-attachments/assets/83457924-cca4-4616-be66-d22769dceac4
+
+
+
+---
+
 ## Project Overview
 
 This application allows users to enter property details and predicts house prices using a trained machine learning model.  
