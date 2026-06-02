@@ -1,4 +1,4 @@
-# House Price Prediction Web Application
+# House Price Prediction Web App
 
 An end-to-end Machine Learning web application that predicts house prices based on user inputs such as area, number of bedrooms, and bathrooms.  
 The system provides real-time predictions through a professional web interface.
