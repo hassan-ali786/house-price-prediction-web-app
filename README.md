@@ -158,7 +158,7 @@ joblib==1.3.2
 ## Author
 
 Hassan Ali  
- Data Scientist & Machine Learning Engineer  
+ Data Scientist & ML  Engineer  
 
 
 ---
